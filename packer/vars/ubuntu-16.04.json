@@ -1,5 +1,5 @@
 {
-  "base_image": "Ubuntu 16.04 - fabric - 20171107-2138",
+  "base_image": "Ubuntu 16.04 - fabric - 20171017-1902",
   "cloud_user": "ubuntu",
   "distro": "Ubuntu 16.04",
   "cloud_user_data": "provision/null_data.sh"
