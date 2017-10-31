@@ -168,12 +168,6 @@ EOF
     apt-get install unzip xz-utils puppet git git-review libxml-xpath-perl \
                     xmlstarlet facter maven libltdl-dev python-tox crudini
 
-    # install ansible
-    echo "---> Installing Ansible"
-    apt-add-repository -y ppa:ansible/ansible
-    apt-get update
-    apt-get install 'ansible>=2.3.0.0,<=2.3.3.0'
-
     # install Java 7
     echo "---> Configuring OpenJDK"
     apt-get install openjdk-7-jdk
