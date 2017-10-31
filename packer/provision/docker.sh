@@ -166,7 +166,8 @@ deb_install_pip_pkgs() {
     B3J0F_PACKAGES="b3j0f.aop"
     PIP_VERSIONED_PACKAGES="flask==0.10.1 \
         python-dateutil==2.2 pytz==2014.3 pyyaml==3.10 couchdb==1.0 \
-        flask-cors==2.0.1 requests==2.12.1 pysha3==1.0b1 pyopenssl==17.2.0"
+        flask-cors==2.0.1 requests==2.12.1 pysha3==1.0b1 pyopenssl==17.2.0 \
+        ansible>=2.3.0.0,<=2.3.3.0"
 
     echo '---> Installing Pip Packages'
     pip2 install -U pip
